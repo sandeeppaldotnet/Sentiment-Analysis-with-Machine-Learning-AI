@@ -115,7 +115,13 @@ This repository demonstrates how to:
 - Make sure to **copy this file** into your Web API project folder to load and use the model.
 
 ---
+## 📸 Screenshots
 
+### 🧠 Model Training in Console App
+![Training in Console App](sentimant-ml-1.png)
+
+### 🌐 Prediction via Web API
+![Prediction using Web API](sentimat1.png)
 ## Notes
 
 - The `Label` property is required in the input class and must be present during prediction, even if its value is empty. This is because ML.NET expects the input schema to match exactly what was used during training.
